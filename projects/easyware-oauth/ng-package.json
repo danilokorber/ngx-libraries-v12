@@ -2,10 +2,7 @@
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/easyware-oauth",
   "lib": {
-    "entryFile": "src/public-api.ts",
-    "umdModuleIds": {
-      "angular-oauth2-oidc": "angular-oauth2-oidc"
-    }
+    "entryFile": "src/public-api.ts"
   },
   "allowedNonPeerDependencies": ["angular-oauth2-oidc"]
 }
