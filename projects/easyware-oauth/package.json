@@ -1,6 +1,6 @@
 {
   "name": "easyware-oauth",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "peerDependencies": {
     "@angular/common": "^13.3.1",
     "@angular/core": "^13.3.1",

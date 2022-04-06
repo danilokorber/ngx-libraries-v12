@@ -27,8 +27,9 @@ export class EasywareOAuthService {
     };
 
     this.oauthService.configure(this.currentConfig);
-    this.oauthService.loadDiscoveryDocumentAndTryLogin();
-    this.updateObservable();
+    this.oauthService.loadDiscoveryDocumentAndTryLogin().then((doc) => {
+      this.updateObservable();
+    });
   }
 
   private updateObservable(): void {
